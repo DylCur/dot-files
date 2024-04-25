@@ -1,0 +1,1 @@
+code ~/.config/i3/
