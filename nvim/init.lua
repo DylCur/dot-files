@@ -1,0 +1,7 @@
+require("dylan.core.options")
+require("dylan.core.keymaps")
+-- require("dylan.core.colorscheme")
+-- require("mason").setup()
+-- require("nvim-cmp").setup()
+-- require("lazy").setup(plugins, opts)
+require("dylan.lazy")
