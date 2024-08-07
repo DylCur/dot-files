@@ -7,6 +7,7 @@ general {
   interval = 1
 }
 
+order += "ethernet eno1"
 order += "memory"
 order += "cpu_usage"  
 order += "disk /"
@@ -26,4 +27,9 @@ cpu_usage {
 
 memory {
   format = "   %used "
+}
+
+ethernet eno1{
+  format_up = " %speed"
+  format_down = " Down"
 }
