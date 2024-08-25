@@ -4,4 +4,5 @@ require("dylan.core.keymaps")
 -- require("mason").setup()
 -- require("nvim-cmp").setup()
 -- require("lazy").setup(plugins, opts)
+
 require("dylan.lazy")

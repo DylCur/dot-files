@@ -36,5 +36,7 @@ keymap.set("n", "<leader>to", ":terminal<CR>") -- Opens a terminal
 
 keymap.set("n", "<leader>q", ":!zathura <C-r>=expand('%:r')<cr>.pdf &<cr>")
 
-keymap.set("n", "<leader>fo", ":FloatermNew<CR>")
+keymap.set("n", "<leader>oo", ":FloatermNew<CR>")
 keymap.set("n", "<F7>", ":FloatermToggle<CR>")
+
+keymap.set("n", "<leader>nb", ":Navbuddy<CR>")
