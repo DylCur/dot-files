@@ -1,4 +1,5 @@
 # Gaps
+# assign [class="UnrealEditor"] 2
 
 exec --no-startup-id setxkbmap -variant dvp
 
