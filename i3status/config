@@ -10,7 +10,7 @@ general {
 #order += "ethernet eno1"
 #order += "memory"
 #order += "cpu_usage"  
-#order += "disk /"
+order += "disk /"
 order += "time"
 
 disk "/" {
